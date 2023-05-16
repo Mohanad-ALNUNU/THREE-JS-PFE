@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My first three.js app</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        #button1 {
+            position: absolute;
+            left: 0%;
+            top: 7%;
+            background-color: #f4511e;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            font-size: 16px;
+            margin: 4px 0px;
+            opacity: 0.2;
+            transition: 0.3s;
+            display: inline-block;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        #button1:hover {
+            opacity: 1
+        }
+
+
+
+
+
+        #button2 {
+            position: absolute;
+            left: 0%;
+            top: 14.7%;
+            background-color: #f4511e;
+            border: none;
+            color: white;
+            padding: 16px 41px;
+            text-align: center;
+            font-size: 16px;
+            margin: 4px 0px;
+            opacity: 0.2;
+            transition: 0.3s;
+            display: inline-block;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+
+        #button2:hover {
+            opacity: 1
+        }
+
+
+        #button3 {
+            position: absolute;
+            left: 80%;
+            top: 20%;
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+        }
+
+        #button3:hover {
+            background-color: #3e8e41
+        }
+
+        #button3:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+    </style>
+    <script src="./JS/three.js"></script>
+    <script src="https://code.jquery.com/jquery-1.6.js" integrity="sha256-p8mNoqAmClyKxhXK2Va4siC3otc9hTZNz3e2P5LpB7M="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./JS/OrbitControls.js"></script>
+    <script type="text/javascript" src="./JS/MTLLoader.js"></script>
+    <script type="text/javascript" src="./JS/OBJLoader.js"></script>
+    <script type="text/javascript" src="./JS/state.js"></script>
+    <script src="./JS/GLTFLoader.js"></script>
+    <script type="module" src="./JS/lights/SpotLight.js"></script>
+    <script type="module" src="./JS/lights/HemisphereLight.js"></script>
+    <script src="./JS/three.js-master/examples/js/controls/FirstPersonControls.js"></script>
+    <script src="./JS/three.js-master/examples/js/controls/PointerLockControls.js"></script>
+    <script src="./JS/threex.domevents.js"></script>
+</head>
+
+<body>
+    <div id="WebGL-output"></div>
+    <div id="Stats-output"></div>
+
+    <button id="button1">Press me to drive</button>
+    <button id="button2">Press me to fly</button>
+    <button id="button3">Explore Projects</button>
+    <!-- TODO :: daylight buttom -->
+    <script src="./JS/script.js"></script>
+
+</html>
