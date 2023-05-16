@@ -680,7 +680,7 @@ domEvent.addEventListener(cube4, 'mouseover', event => {
             cube4Material.transparent = true;
             cube4Material.color = 0xff0000;
             cube4Material.opacity = 0.2;
-        }
+            image.png``        }
     }
 
 });
