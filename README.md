@@ -1,10 +1,12 @@
 # THREE-JS-PFE
 
-## 🎤 MY WORDS 🎤
+## 🎤 Overview 🎤
 
-this is one of my premiers projects in my development career, it have been developed for educational purposes (as a project of gradutating from second universal year)
+This project represents one of the initial milestones in my development career. Created as part of my educational journey, specifically as a graduation project during my second year in 2022, it served as a platform to apply and demonstrate my developing skills.
 
-I know it's very messy, not structured code (a code without any conventions or Good practice 😆) and I think it's a good thing that I can see that now. It's a good indicator!
+## 🗣️ Project Details 🗣️
+
+While I acknowledge that the project's codebase may lack organization and adhere to established coding conventions and best practices, I consider this realization to be a positive outcome. It serves as a testament to my growth and progress as a developer, highlighting my ability to reflect on past work and recognize areas for improvement.
 
 
 
